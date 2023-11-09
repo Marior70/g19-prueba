@@ -82,7 +82,7 @@ textarea{
    border-radius: 0.5rem;
 }
 
-#btnLogin{
+#btnEnviar{
    margin: 0 auto;
    padding: 0.3rem 1rem;
    font-size: var(--font-2);
