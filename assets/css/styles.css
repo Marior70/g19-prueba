@@ -65,7 +65,9 @@
    --color-5a: rgba(0, 255, 204, .8);
    --color-6a: rgba(42, 255, 213, .8);
    --color-7a: rgba(85, 255, 221, .8);
-   --color-8a: rgba(128, 255, 230, .9);
+   --color-8a: rgba(128, 255, 230, .95);
+   --color-9a: rgba(170, 255, 238, .95);
+   --color-10a: rgba(213, 255, 246, .90);
 
    --color-wsp: green;
    --color-mail: blue;
@@ -107,9 +109,10 @@ body {
    color: var(--color-2);
    overflow: hidden;
 
-   background: url(../media/images/bg-01-768x1250.png) no-repeat;
+   background-color: var(--color-10a);
+   /* background: url(../media/images/bg-01.png) no-repeat;
    background-attachment: fixed;
-   background-size: cover;
+   background-size: cover; */
 }
 
 /* **** Configuración Responsive **********************************************/
@@ -117,12 +120,6 @@ body {
 @media only screen and (min-width: 768px) {
    html {
       overflow: visible;
-   }
-
-   body {
-      background: url(../media/images/bg-.png) no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
    }
 
    body>header,
@@ -133,20 +130,3 @@ body {
    }
 }
 
-/* Large devices (992px and up) */
-@media only screen and (min-width: 992px) {
-   body {
-      background: url(../media/images/bg-03-.png) no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-   }
-}
-
-/* Extra large devices (1200px and up) */
-@media only screen and (min-width: 1200px) {
-   body {
-      background: url(../media/images/bg-05-.png) no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-   }
-}

@@ -1,0 +1,44 @@
+@media only screen and (min-width: 768px) {
+
+   .byFunction{
+      margin: 0 auto 1rem auto;
+      padding: 2rem;
+      border-top-left-radius: 2rem;
+      border-bottom-right-radius: 4rem;
+      box-shadow: var(--sombra-2);     
+   }
+
+   .byFunction>header{
+      margin: 0 0.5rem;
+      padding-bottom: 2rem;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+   .byFunction>header h2{
+      font-size: var(--font-7);
+   }
+   
+   .byFunction>header img{
+      width: 80px;  
+   }
+
+ /*   .byFunction:nth-child(2n+1){
+      background-color: var(--color-10);
+   } */
+   
+   #iaList{
+      gap: 2rem;
+   }
+   #iaList img {
+      width: 195px;
+      height: 150px;
+   }
+
+   #iaList>li img:hover {
+      width: 214px;
+      height: 165px;
+   }
+}
